@@ -4,6 +4,8 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
   output: "export",
+  basePath: "/perimental",
+  assetPrefix: "/perimental",
   images: {
     unoptimized: true,
   },
