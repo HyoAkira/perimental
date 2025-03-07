@@ -72,7 +72,7 @@ jobs:
       - name: Build with Next.js
         env:
           NEXT_TELEMETRY_DISABLED: 1
-          NEXT_PUBLIC_BASE_PATH: "perimental"
+          NEXT_PUBLIC_BASE_PATH: "/perimental"
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: No jekyll
         run: touch out/.nojekyll
